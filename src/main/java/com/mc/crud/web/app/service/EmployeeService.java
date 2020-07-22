@@ -6,4 +6,5 @@ import com.mc.crud.web.app.model.Employee;
 
 public interface EmployeeService {
 	List<Employee> getAllEmployees();
+	void addEmployee(Employee employee);
 }
